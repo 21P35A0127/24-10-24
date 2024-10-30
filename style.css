@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    font-size: 1.8rem;
+    background-color: violet;
+}
+img{
+    width: 20%;
+    display: inline-block;
+    cursor: pointer;
+}
+.item{
+    background-color: orange ;
+}
+/* span {
+    font-size: 2rem;
+} */
+.icon {
+    font-size: 2rem;
+    display: none;
+}
+nav {
+    display: contents;
+}
+a:hover{
+    background-color: orangered;
+    border: 2px solid;
+    cursor: pointer;
+}
+.main-container{
+    background-image: url(https://www.shutterstock.com/image-photo/legs-newborn-baby-child-hands-260nw-1701742510.jpg);
+    width: 100%;
+    border: 2px solid;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    padding: 10;
+    border-radius: 30px;
+    border: 2px solid;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    background-color: white;
+    color: #000;
+    align-items: center;
+    font-size: 2rem;
+
+}
+span{
+    background-color: orangered;
+    border: 2px solid;
+    width: 150px;
+    border-radius: 30px;
+}
+@media screen and (max-width : 800px) {
+    nav {
+        display: none;
+    }
+    .icon{
+        display: flex;
+        align-items:center;
+    }
+}
